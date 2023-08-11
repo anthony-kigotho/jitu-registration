@@ -14,9 +14,7 @@ const registerUser = async (req, res)=>{
         const id = v4();
         const {firstname, lastname, email, cohort, password} = req.body
 
-        if(error){
-            return res.status(422).json(error.details)
-        }
+        console.log(password);
 
         const hashedPwd = await bcrypt.hash(password, 5)
 

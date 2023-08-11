@@ -5,6 +5,6 @@ Content-Type: application/json
     "firstname": "Anthony",
     "lastname":"Kigotho",
     "email":"anthony.kigotho@thejitu.com",
-    "cohort": 17,
+    "cohort": "17",
     "password":"pass1234"
 }
